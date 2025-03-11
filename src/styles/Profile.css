@@ -1,0 +1,105 @@
+/* Profil Sayfası Genel Stili */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+}
+
+/* Profil Resmi */
+.profile-pic-wrapper {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px; /* Resmin altında boşluk bırak */
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+/* Kullanıcı Bilgileri */
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Elemanlar arasına boşluk koy */
+  width: 100%;
+  max-width: 350px; /* Bilgi kutularının genişliği */
+}
+
+.user-info input,
+.user-info textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+/* Buton Grubu */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Butonlar arasında boşluk */
+  width: 100%;
+  max-width: 200px;
+  margin-top: 15px;
+}
+
+/* Düzenleme Butonu */
+.edit-button {
+  padding: 10px 15px;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.edit-button:hover {
+  background-color: darkblue;
+}
+
+/* Çıkış Yap Butonu */
+.logout-button {
+  padding: 10px 15px;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.logout-button:hover {
+  background-color: darkorange;
+}
+
+/* Hesabı Sil Butonu */
+.delete-account {
+  padding: 10px 15px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.delete-account:hover {
+  background-color: darkred;
+}
